@@ -1,0 +1,29 @@
+# Component Selection Matrix
+
+- Strong local action -> `Button`
+- Important but softer action -> `FilledTonalButton`
+- Secondary structured action -> `OutlinedButton`
+- Low-emphasis action -> `TextButton`
+- Single primary screen action -> FAB family
+- Screen shell with app bars, FAB, or snackbar -> `Scaffold`
+- Compact top-level destinations -> `NavigationBar`
+- Medium and larger top-level destinations -> `NavigationRail`
+- Dense or hierarchical app navigation -> `NavigationDrawer`
+- Peer content sections inside one feature -> `Tabs`
+- Local mode or view switch -> `SegmentedButton`
+- Independent multi-select -> `Checkbox`
+- Immediate setting toggle -> `Switch`
+- One-of-many choice -> `RadioButton`
+- Compact filters or tokens -> `Chips`
+- Interruptive short task -> `Dialog`
+- Supplementary attached content -> `ModalBottomSheet`
+- Brief transient feedback -> `Snackbar`
+- Attached count or status -> `Badge`
+- General text entry -> text field family
+- Search-first surface -> `SearchBar`
+- Date or date-range entry -> date pickers
+- Time entry -> time pickers
+- Approximate value or range -> slider family
+- Temporary anchored action list -> `Menu`
+- Check the matching component doc for experimental or version-sensitive Material 3 APIs before implementation, especially for `SearchBar`, date pickers, and time pickers.
+- Decide by intent, emphasis, and screen role before visual preference.
