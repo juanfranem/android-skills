@@ -44,16 +44,20 @@ Use this skill as a compact router for Jetpack Compose UI work. Keep the main sk
 - Text structure, typography, or annotated text choices -> `references/foundations/text-system-architecture.md` or `references/screen-design/text-and-typography.md`
 - Text input model choice, autofill concerns, or state-based field migration questions -> `references/decision-matrices/text-rendering-and-input-matrix.md` or `references/foundations/text-system-architecture.md`
 - Focus order, keyboard or D-pad behavior, and large-screen interaction review -> `references/screen-design/focus-and-input-patterns.md` or `references/decision-matrices/focus-and-traversal-checklist.md`
+- Previews, multipreview, fake data, or preview wrappers -> `references/development/previews-and-authoring-surfaces.md`
 - Pointer input versus gesture modifiers, or interaction-feedback review -> `references/decision-matrices/input-abstraction-matrix.md` or `references/quality/interaction-and-gesture-review.md`
 - Animation API choice, shared-transition caveats, or motion review -> `references/decision-matrices/animation-api-selection.md`, `references/decision-matrices/motion-review-checklist.md`, or `references/quality/animation-and-motion.md`
 - Image, icon, painter, canvas, or graphics-layer choice -> `references/screen-design/images-and-graphics.md`
 - Screen architecture, state ownership, navigation boundaries, or `CompositionLocal` use -> `references/foundations/compose-ui-architecture.md`
+- `AndroidView`, `AndroidViewBinding`, `ComposeView`, or View/Compose interop -> `references/foundations/view-interop.md` or `references/decision-matrices/interop-decision-matrix.md`
 - Compose theming, color roles, typography, shapes, dynamic color, or design-system boundaries -> `references/foundations/material3-theming.md`
 - Effect APIs, restart keys, state retention, or lifecycle-driven side effects -> `references/foundations/effects-and-state-lifecycles.md`
 - Adaptive layout, panes, window size classes, or large-screen navigation -> `references/screen-design/adaptive-layout.md`
 - Layout primitives, modifier order, lazy containers, or custom layout escape hatches -> `references/screen-design/layout-and-modifiers.md`
+- `WindowInsets`, system bars, safe areas, IME overlap, or keyboard-safe layout -> `references/screen-design/window-insets-and-ime.md` or `references/decision-matrices/screen-chrome-review-checklist.md`
 - Common screen types such as forms, settings, search, feeds, or UI state surfaces -> `references/screen-design/screen-patterns.md`
 - App navigation structure, tabs, segmented controls, pane navigation, or route boundaries -> `references/screen-design/navigation-patterns.md`
+- `BackHandler`, back behavior, overlay dismissal, or local back interception -> `references/screen-design/back-navigation-and-handling.md`
 - Accessibility review or semantics concerns -> `references/quality/accessibility.md`
 - UI testing strategy, semantics-first assertions, or Compose test APIs -> `references/quality/testing.md`
 - Recomposition hygiene, stable parameters, or performance smells -> `references/quality/performance.md`
