@@ -61,6 +61,10 @@ Use this skill as a compact router for Jetpack Compose UI work. Keep the main sk
 - Accessibility review or semantics concerns -> `references/quality/accessibility.md`
 - UI testing strategy, semantics-first assertions, or Compose test APIs -> `references/quality/testing.md`
 - Recomposition hygiene, stable parameters, or performance smells -> `references/quality/performance.md`
+- Advanced semantics, spoken-output metadata, `liveRegion`, `paneTitle`, `stateDescription`, `progressBarRangeInfo`, or `customActions` -> `references/quality/advanced-semantics-and-accessibility-review.md` or `references/decision-matrices/accessibility-semantics-review-checklist.md`
+- Traversal grouping, order, or accessibility tree structure decisions -> `references/quality/advanced-semantics-and-accessibility-review.md`
+- Semantics tree debugging, merged versus unmerged tree choice, or test tag strategies -> `references/quality/compose-ui-testing-and-semantics-debugging.md` or `references/decision-matrices/testing-interop-and-tree-choice.md`
+- Compose testing with `Espresso`, `UiAutomator`, `testTagsAsResourceId`, or hybrid interop -> `references/quality/compose-ui-testing-and-semantics-debugging.md` or `references/decision-matrices/testing-interop-and-tree-choice.md`
 
 ## Component routing
 
